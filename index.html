@@ -1,14 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="orange">
+    <meta name="background-color" content="purple">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Actividades">  
+    <link rel="apple-touch-startup-image" href="/images/startup.png" /> 
+    <link rel="apple-touch-icon" href="images/icon-ios.png">
+    <link href="manifest.json" rel="manifest">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-</head>
-<body>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
     
-    <h1>Portfolio Marina</h1>
+    h1{
+        font-size: larger;
+        text-align: center
+    }
+
+    ul{
+        list-style-type: none;
+        padding: 0;
+        text-align: center
+    }
+
+    li{
+        margin: 15px;
+        padding: 0;
+        background-color: #ddd;
+        float: left;
+    }
+
+    .material-icons{
+        font-size: 50px;
+    }
+
+    p {
+    font-size: small;
+}
+
+a { 
+    width: 70px;
+    height: 120px;        
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <h1>Mis Actividades</h1>
+    <ul>
+        <li>
+            <a href="http://www.google.com/maps?q=BuenosAires">
+                <i class="material-icons">maps</i>
+                <p>Mapa de CABA</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://maps.apple.com/?daddr=104+Market+St.+San+Francisco%2C+CA">
+                <i class="material-icons">place</i>
+                <p>San Francisco - 104 Market Street</p>
+            </a>
+        </li>
+
+        <li>
+                <a href="https://maps.google.com/?daddr=104+Market+St.+San+Francisco%2C+CA">
+                    <i class="material-icons">place</i>
+                    <p>San Francisco - 104 Market Street</p>
+                </a>
+            </li>        
+      
+        <li>
+                <a href="https://maps.apple.com/?saddr=Big+Ben&daddr=Hyde+Park%2C+London&dirflg=r">
+                    <i class="material-icons">flight_takeoff</i>
+                    <p>Big Ben - de Buenos Aires a Londres</p>
+                </a>
+            </li>  
+            
+            <li>
+                    <a href="https://maps.google.com/?saddr=Big+Ben&daddr=Hyde+Park%2C+London&dirflg=r">
+                        <i class="material-icons">flight_takeoff</i>
+                        <p>Big Ben - de Buenos Aires a Londres</p>
+                    </a>
+                </li>               
+       
+        <li>
+            <a href="https://m.uber.com/ul/?action=setPickup&pickup=my_location">
+                <i class="material-icons">local_taxi</i>
+                <p>Viajando en Uber</p>
+            </a>
+
+        </li>
+     
+        <li><a href="sms:12345678?body=I%27m+late">
+                <i class="material-icons">message</i>
+                <p>Texto a mi Esposa</p>
+            </a></li>       
+             <li><a href="whatsapp://send?text=I%27m+late">
+                <i class="material-icons">message</i>
+                <p>Whatsapp a mi Esposa</p>
+            </a></li>       
+             <li><a href="tg:msg?text=I%27m+late">
+                <i class="material-icons">message</i>
+                <p>Amigo en Telegram</p>
+            </a></li>       
+             <li><a href="fb-messenger://share?link=http://">
+                <i class="material-icons">message</i>
+                <p>Enviar Messenger</p>
+            </a></li>       
+             <li><a href="tel:+541145454545">
+                <i class="material-icons">call</i>
+                <p>Llamar Mama</p>
+            </a></li>       
+             <li><a href="facetime:user@domain.com">
+                <i class="material-icons">movie_creation	
+        </i>
+                <p>Facetime Ale</p>
+            </a></li>       
+             <li><a href="facetime-audio:user@domain.com">
+                <i class="material-icons">mic</i>
+                <p>Audio Facetime Ale</p>
+            </a></li>       
+             <li><a href="skype:mary89?call">
+                <i class="material-icons">contact_phone	
+        </i>
+                <p>Skype Flor</p>
+            </a></li>       
+             <li><a href="skype:mary89?call&video=true">
+                <i class="material-icons">call</i>
+                <p>Video Skype Flor</p>
+            </a></li>       
+             <li><a href="https://twitter.com/intent/tweet">
+                <i class="material-icons">call</i>
+                <p>Nuevo Tweet</p>
+            </a></li>       
+             <li><a href="snapchat://">
+                <i class="material-icons">camera</i>
+                <p>Iniciar Snapchat</p>
+            </a></li>        
+    </ul>
+
 
 </body>
+
 </html>
